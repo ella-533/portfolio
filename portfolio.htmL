@@ -6,21 +6,88 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-    <h1>Celine</h1>
-    <h2>Devlepeuse Web</h2>
-    <nav>
-        <ul>
-            <li><a href="">Acuille</a></li>
-            <li><a href="">A propos</a></li>
-            <li><a href="">Projets</a></li>
+    <div id=header>
+        <h1>Celine</h1>
+        <h2>DW</h2>
+        <nav>
+            <li><a href="#content">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#con">Projets</a></li>
             <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-<section id="about">
-    <img src="IMAGE/orange.jpg" alt="image d'un orange">
-</section>
+        </nav>
+    </div>
+    <div id="content">
+        <section id="about">
+            <img src="IMAGE/orange.jpg" alt="image d'un orange">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni obcaecati aspernatur ut sapiente pariatur impedit corrupti cupiditate, assumenda quibusdam. <strong>Laborum reprehenderit cum quaerat magnam accusantium alias iusto eveniet doloremque deleniti.</strong></p>
+
+        </section>
+        <section>
+            <h2>Projets:</h2>
+            <ul>
+                <li>Projet(1)
+                    <UL>
+                        <li>article 1
+                            <img src="IMAGE/AdobeStock_399706281_Preview_Editorial_Use_Only.jpeg" width="50%" height="50%" alt="premier article">
+                            <h3>titre article 1</h3>
+                            <p>c'est le paragraphe de premier article</p>
+                            <a href=""target="_blank">click-ici</a>
+                        </li>
+                    </UL>
+                </li>    
+                <li>Projet(2)
+                    <ul>
+                        <li>article 2
+                            <img src="IMAGE/AdobeStock_405545318_Preview_Editorial_Use_Only.jpeg" width="50%" height="50%" alt="article2">
+                            <h3>titre article 2</h3>
+                            <p>c'est le paragraphe de 2e article</p>
+                            <a href=""target="_blank">clique-ici</a>
+                    </ul>
+                
+                </li>    
+                <li>Projet(3)
+                    <ul>
+                        <li>article 3
+                            <img src="IMAGE/orange.jpg" alt="image orange">
+                            <h3>titre article 3</h3>
+                            <p>c'est le paragraphe de 3e article</p>
+                            <a href=""target="_blank">click-ici</a>
+                        </li>
+                    </ul>
+                </li>    
+            </ul>
+        </section>
+        <section id="Con">
+            <h2>Contactez-moi</h2>
+            <form action="">
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="sujet">Sujet</label>
+                    <input type="text" id="sujet" name="sujet" required>
+                </div>
+                <input type="submit" value="envoi">
+            </form>
+        </section>
+        <div>
+            <footer>
+                <p>&copy; 2023 Mon Entreprise. Tous droits réservés</p>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Instagram</a></li>
+                </ul>
+                <iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45235.285614849454!2d-0.6019623783202982!3d44.87846979999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd55288b9f6b58d1%3A0x4c97e3842372c86e!2sCours%20Florent%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1696074251786!5m2!1sfr!2sfr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"></iframe>
+            </footer>
+        </div>
+        
+    </header>
     
 </body>
 </html>
